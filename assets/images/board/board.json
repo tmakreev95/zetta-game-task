@@ -1,0 +1,145 @@
+{ "compressionlevel":-1,
+ "height":8,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[65, 66, 67, 68, 69, 70, 71, 68,
+            68, 65, 66, 67, 68, 69, 70, 71,
+            65, 66, 67, 68, 69, 70, 71, 69,
+            70, 65, 66, 67, 68, 69, 70, 71,
+            65, 66, 67, 68, 69, 70, 71, 71,
+            69, 65, 66, 67, 68, 69, 70, 71,
+            65, 66, 67, 68, 69, 70, 71, 68,
+            67, 65, 66, 67, 68, 69, 70, 71],
+         "height":8,
+         "id":2,
+         "name":"Gems",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1],
+         "height":8,
+         "id":1,
+         "locked":true,
+         "name":"Board",
+         "opacity":0.7,
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.10.2",
+ "tileheight":150,
+ "tilesets":[
+        {
+         "columns":8,
+         "firstgid":1,
+         "image":"board.png",
+         "imageheight":1200,
+         "imagewidth":1200,
+         "margin":0,
+         "name":"board",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":150,
+         "tilewidth":150
+        }, 
+        {
+         "columns":7,
+         "firstgid":65,
+         "image":"..\/gems\/gems.png",
+         "imageheight":150,
+         "imagewidth":1050,
+         "margin":0,
+         "name":"gems",
+         "spacing":0,
+         "tilecount":7,
+         "tileheight":150,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"white"
+                        }]
+                }, 
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"red"
+                        }]
+                }, 
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"yellow"
+                        }]
+                }, 
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"green"
+                        }]
+                }, 
+                {
+                 "id":4,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"orange"
+                        }]
+                }, 
+                {
+                 "id":5,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"blue"
+                        }]
+                }, 
+                {
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"violet"
+                        }]
+                }],
+         "tilewidth":150
+        }],
+ "tilewidth":150,
+ "type":"map",
+ "version":"1.10",
+ "width":8
+}
